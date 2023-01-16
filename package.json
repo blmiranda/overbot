@@ -1,0 +1,26 @@
+{
+  "name": "overbot",
+  "version": "1.0.0",
+  "description": "Discord bot made to give more infromation about win/lose in ranked games!",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brianmirandadev/overbot.git"
+  },
+  "author": "Brian Miranda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brianmirandadev/overbot/issues"
+  },
+  "homepage": "https://github.com/brianmirandadev/overbot#readme",
+  "prettier": {
+    "singleQuote": true
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "dotenv": "^16.0.3"
+  }
+}
