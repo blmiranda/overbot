@@ -6,7 +6,7 @@ const button = require('../components/md7/buttons.js');
 module.exports = {
   data: new SlashCommandBuilder()
     .setName('md7')
-    .setDescription('SUA MD7')
+    .setDescription('Helps tracking your Overwatch MD7 placements.')
     .addStringOption((option) =>
       option
         .setName('battletag')
