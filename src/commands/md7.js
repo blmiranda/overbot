@@ -53,6 +53,7 @@ module.exports = {
       const maxLosesIsReach = embedData.lostMatches.length >= 19;
 
       if (!secondInteraction.isButton()) return;
+
       if (secondInteraction.user.id !== firstInteraction.user.id) {
         return await secondInteraction.reply({
           content: 'This MD7 is not yours!',

@@ -37,7 +37,10 @@ module.exports = function (data) {
     `
     )
     .setFooter({
-      text: battleTag,
+      text: `
+        ${battleTag}
+Last updated
+      `,
       iconURL:
         'https://play-lh.googleusercontent.com/PuPFgmLam2WNyul3lUQywQT5Y5sPgL6VzWSUAdXOS1oIQwHYnrB_MyfXCOrR4LzZcjeP',
     })
