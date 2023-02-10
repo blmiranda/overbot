@@ -12,7 +12,7 @@ module.exports = function (data) {
   const embed = new EmbedBuilder()
     .setColor('Orange')
     .setAuthor({
-      name: 'OverWatch Placement - MD7',
+      name: 'OverWatch Placement - MD5',
       iconURL:
         'https://external-preview.redd.it/5Ow3RDQQGkwzzFC60j5_PjFPQ2hd11E2etWQIb3WcRE.jpg?auto=webp&s=191b7cfe6531fca11c8c72bd77074c9b7e850946',
     })
@@ -28,7 +28,7 @@ module.exports = function (data) {
         data.userDraws
       } ⬜ Leaves: ${data.userLeaves}
 
-      :trophy: MD7's Final Win Rate: ${winRate}% 
+      :trophy: MD5's Final Win Rate: ${winRate}% 
 
       `
     )

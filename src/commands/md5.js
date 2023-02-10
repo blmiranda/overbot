@@ -1,12 +1,12 @@
 const { SlashCommandBuilder, EmbedBuilder } = require('discord.js');
 const createEmbed = require('../functions/createMd7DefaultEmbed.js');
 const createEndEmbed = require('../functions/createFinishedMd7Embed');
-const button = require('../components/md7/buttons.js');
+const button = require('../components/md5/buttons.js');
 
 module.exports = {
   data: new SlashCommandBuilder()
-    .setName('md7')
-    .setDescription('Helps tracking your Overwatch MD7 placements.')
+    .setName('md5')
+    .setDescription('Helps tracking your Overwatch MD5 placements.')
     .addStringOption((option) =>
       option
         .setName('battletag')
@@ -56,7 +56,7 @@ module.exports = {
 
       if (secondInteraction.user.id !== firstInteraction.user.id) {
         return await secondInteraction.reply({
-          content: 'This MD7 is not yours!',
+          content: 'This MD5 is not yours!',
           ephemeral: true,
         });
       }
