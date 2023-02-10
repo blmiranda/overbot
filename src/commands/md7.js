@@ -49,8 +49,8 @@ module.exports = {
       });
 
     collector.on('collect', async (secondInteraction) => {
-      const maxWinsIsReach = embedData.wonMatches.length >= 6;
-      const maxLosesIsReach = embedData.lostMatches.length >= 19;
+      const maxWinsIsReach = embedData.wonMatches.length >= 4;
+      const maxLosesIsReach = embedData.lostMatches.length >= 14;
 
       if (!secondInteraction.isButton()) return;
 
