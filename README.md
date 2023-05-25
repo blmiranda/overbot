@@ -1,7 +1,7 @@
 # Discord bot made to give more information about win/lose in ranked games on Overwatch 2!
 
 - Made with NodeJS
-- Currently functional, just not available for the public yet
+- Currently functional, just not available for the public anymore since Blizzard finally decided to add this feature in-game.
 
 ![ezgif com-video-to-gif](https://github.com/brianmirandadev/overbot/assets/94651050/cd69c417-1cad-4ee5-8818-475249502448)
 
